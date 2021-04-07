@@ -1,0 +1,27 @@
+type User{
+      isStudent: Boolean!
+      name: String!
+      pass: String!
+      rollNo: String!
+      taken: [Lecture!]
+}
+
+type Course{
+      id: String!
+      name: String!
+      lecture: [Lecture!]
+}
+
+type Lecture{
+      id: String!
+      course: Course!
+      attendance: [User!]
+}
+
+type Query{
+      allUsers: [User!]
+      allCourses: [Course!]
+      allLectures: [Lecture!]
+}
+
+
