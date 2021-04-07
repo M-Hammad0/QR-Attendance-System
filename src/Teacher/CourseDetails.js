@@ -92,7 +92,7 @@ const CourseDetails = () => {
             <Form>
               <div>
                 <label>
-                  <input
+                  <Field
                     type="radio"
                     name="course"
                     value="295111195866694145"
@@ -113,7 +113,7 @@ const CourseDetails = () => {
                   <Field
                     type="radio"
                     name="course"
-                    value="295058545481613825"
+                    value="295251906485289473"
                   />
                   <label>Probability & Statistics</label>
                 </label>
@@ -122,18 +122,9 @@ const CourseDetails = () => {
                   <Field
                     type="radio"
                     name="course"
-                    value="295058612019003905"
+                    value="295251927704273409"
                   />
                   <label>Web Engineering</label>
-                </label>
-                <br></br>
-                <label>
-                  <input
-                    type="radio"
-                    name="course"
-                    value="295058633250570753"
-                  />
-                  <label>Microprocessor Based System Design</label>
                 </label>
                 <br></br>
                 <label>
